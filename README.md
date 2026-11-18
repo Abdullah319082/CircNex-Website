@@ -1,29 +1,59 @@
-# CircNex Technologies — Website (Draft 01)
+# CircNex Technologies — Website redesign (Draft 02)
 
-Modern, responsive static marketing site for CircNex Technologies.
+Official website development repository for CircNex Technologies.
+
+> **Development only.** Public-facing forms are in demo mode; the website is not yet connected to an inquiry-processing backend. Pages currently include a `noindex,nofollow` robots instruction.
 
 ## Pages
-- `index.html` — homepage
-- `services.html` — service details
-- `about.html` — company introduction
-- `contact.html` — project inquiry form
-- `privacy.html` — draft privacy notice
+- `index.html` — homepage (company intro, five photo-led services, process, why us, contact form)
+- `services.html` — service details with photos and scope bullets
+- `about.html` — company introduction, mission, vision
+- `projects.html` — **illustrative image gallery**, not actual CircNex projects
+- `faq.html` — common questions, including candid certification/security information
+- `contact.html` — contact information and inquiry form
+- `quote.html` — request-a-quote form with project details
+- `privacy.html` — **draft** privacy notice, not a finished legal policy
 
-## Development
-No build system is required. Open `index.html` in a browser or serve this directory with any local static server (for example, `python -m http.server 8000`).
+## Brand
+- Site style: premium dark navy, deep teal, blue and green accents.
+- Tagline: **Install. Retire. Recycle.**
+- Homepage headline: **From Installation to Retirement — CircNex Keeps Technology Moving.**
+- `assets/approved-mark.svg` contains a cropped/optimized version of the **actual logo provided by CircNex's owner**. The mark is optimized for web navigation; the owner-provided high-resolution source remains the master.
+- Main site styles/scripts: `assets/redesign.css` and `assets/redesign.js`. The earlier `assets/styles.css` and `assets/main.js` are retained temporarily as a first-draft archive and are not loaded by these pages.
 
-## Contact form — IMPORTANT
-The form is intentionally in **demo mode**. It validates fields but **does not send inquiries or retain submissions** until a real backend is configured. It never falsely displays “message sent.”
+## Photography (illustrative images)
+The draft loads photographs directly from Unsplash's image CDN. Images illustrate a type of service; they are **not** CircNex team, equipment, customers, locations, or completed projects. Attribution isn't legally required under the Unsplash License but is recorded here for transparency.
 
-For launch, connect a secure form handler (e.g., a Cloudflare Pages Function with server-side email service and spam protection) in `assets/main.js`. Do not put API keys, passwords, or private email credentials into browser JavaScript or a public GitHub repository. Add spam protection, server-side validation, privacy policy, and delivery testing before launch.
+- Deployment/service laptop: Albert Vinas — https://unsplash.com/photos/F3t-AzyTbyU
+- Refurbishment/CPU: JESHOOTS.COM — https://unsplash.com/photos/DQBHliTwIaU
+- Retired used computers: Hugo Clément — https://unsplash.com/photos/IvUCu_u5hjI
+- Workstation/monitors: Huy Phan — https://unsplash.com/photos/IO3_vOUwjVs
+- Network rack/cabling: Yuriy Vertikov — https://unsplash.com/photos/c-lSQecD9oI
+- Hero office desk: Deliberate Directions — https://unsplash.com/photos/ieDXimQcLeM
 
-## Launch checklist
-- Confirm company contact email, phone, actual service area, policies, and approved services.
-- Replace placeholder vector mark with approved CircNex logo, if desired.
-- Verify all service statements, insurance/certifications, and any process claims.
-- Connect and test inquiry form.
-- Review accessibility on mobile, test browser layouts, improve SEO.
-- Remove the temporary `noindex` meta tags when the website is ready for production.
-- Link Cloudflare Pages to this GitHub repository and optionally attach `circnex.com`.
+Source license: https://unsplash.com/license
 
-This project is a draft: it does **not** claim certifications or client results that have not been verified.
+For production, consider downloading and optimizing appropriately licensed images as local assets to avoid dependencies on third-party image hosting.
+
+## Contact form: demo mode only
+All three forms provide required fields and browser-side validation. Submitting them intentionally **does not send or save** data and displays an accurate warning. **Do not claim inquiries are being delivered before connecting the production form service.**
+
+Production options:
+- Cloudflare Pages Functions with Turnstile + a transactional mail service, or
+- another well-supported form backend with server-side validation and spam protection.
+
+Configure mail delivery to **info@circnex.com** after the business mailbox is active. Never expose private API keys or mail credentials in frontend JavaScript or in a public repository.
+
+## Before launching at circnex.com
+1. Confirm real email mailbox, phone number (if public), service area, business registration and actual service capability.
+2. Replace social-channel placeholders with **real** Facebook, TikTok, LinkedIn, Instagram profile URLs.
+3. Connect and test the contact and quote forms (delivery, privacy, spam prevention, accessibility, data retention).
+4. Confirm any third-party downstream processing relationships and claims before referencing them as actual partners.
+5. Replace stock photography with approved CircNex project photos when available.
+6. Have the privacy policy reviewed for the actual data flows.
+7. Test mobile, desktop, performance and keyboard accessibility.
+8. Remove `noindex,nofollow` only when the website is ready for indexing.
+9. Deploy to a business-friendly host such as Cloudflare Pages and attach the domain.
+
+## GitHub Pages preview
+This is a static HTML/CSS/JS site, so GitHub Pages can preview it when enabled in repository settings under branch `main`, folder `/(root)`. GitHub Pages should be used here for **development preview**, not as a long-term commercial website host.
