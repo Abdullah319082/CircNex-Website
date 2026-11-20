@@ -34,7 +34,7 @@ Source license: https://unsplash.com/license
 For production, consider downloading and optimizing appropriately licensed images as local assets to avoid dependencies on third-party image hosting.
 
 ## Social icons
-The footer uses Facebook, Instagram and LinkedIn brand SVG path artwork from [Font Awesome Free 6.7.2](https://fontawesome.com/). Icons: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), © Fonticons, Inc. The website renders these marks as linked icons with accessible names, and the respective brands retain their trademarks.
+The footer uses Facebook, Instagram, LinkedIn and TikTok brand SVG path artwork from [Font Awesome Free 6.7.2](https://fontawesome.com/). Icons: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), © Fonticons, Inc. Facebook, Instagram and LinkedIn are linked with accessible names. TikTok is shown as a disabled, non-clickable placeholder until the official account URL is provided. The respective brands retain their trademarks.
 
 ## Contact form: demo mode only
 The Contact page form provides required fields and browser-side validation. Submitting it intentionally **does not send or save** data and displays an accurate warning. **Do not claim inquiries are being delivered before connecting the production form service.**
