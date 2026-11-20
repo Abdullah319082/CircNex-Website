@@ -10,7 +10,6 @@ Official website development repository for CircNex Technologies.
 - `about.html` — company introduction, mission, vision
 - `faq.html` — common questions, including candid certification/security information
 - `contact.html` — contact information and inquiry form
-- `quote.html` — request-a-quote form with project details
 - `privacy.html` — **draft** privacy notice, not a finished legal policy
 
 ## Brand
@@ -35,7 +34,7 @@ Source license: https://unsplash.com/license
 For production, consider downloading and optimizing appropriately licensed images as local assets to avoid dependencies on third-party image hosting.
 
 ## Contact form: demo mode only
-All three forms provide required fields and browser-side validation. Submitting them intentionally **does not send or save** data and displays an accurate warning. **Do not claim inquiries are being delivered before connecting the production form service.**
+The two remaining forms provide required fields and browser-side validation. Submitting them intentionally **does not send or save** data and displays an accurate warning. **Do not claim inquiries are being delivered before connecting the production form service.**
 
 Production options:
 - Cloudflare Pages Functions with Turnstile + a transactional mail service, or
@@ -46,7 +45,7 @@ Configure mail delivery to **info@circnex.com** after the business mailbox is ac
 ## Before launching at circnex.com
 1. Confirm real email mailbox, phone number (if public), service area, business registration and actual service capability.
 2. Replace social-channel placeholders with **real** Facebook, TikTok, LinkedIn, Instagram profile URLs.
-3. Connect and test the contact and quote forms (delivery, privacy, spam prevention, accessibility, data retention).
+3. Connect and test the contact forms (delivery, privacy, spam prevention, accessibility, data retention).
 4. Confirm any third-party downstream processing relationships and claims before referencing them as actual partners.
 5. Replace stock photography with approved CircNex project photos when available.
 6. Have the privacy policy reviewed for the actual data flows.
