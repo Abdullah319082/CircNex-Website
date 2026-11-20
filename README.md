@@ -5,7 +5,7 @@ Official website development repository for CircNex Technologies.
 > **Development only.** The contact form is in demo mode; the website is not yet connected to an inquiry-processing backend. Pages currently include a `noindex,nofollow` robots instruction.
 
 ## Pages
-- `index.html` — homepage (company intro, five photo-led services, retired equipment purchasing, process, why us)
+- `index.html` — homepage (company intro, four photo-led services, retired equipment purchasing, process, why us)
 - `services.html` — service details with photos and scope bullets
 - `about.html` — company introduction, mission, vision
 - `faq.html` — common questions, including candid certification/security information
