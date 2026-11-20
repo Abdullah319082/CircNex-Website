@@ -8,7 +8,6 @@ Official website development repository for CircNex Technologies.
 - `index.html` — homepage (company intro, five photo-led services, process, why us, contact form)
 - `services.html` — service details with photos and scope bullets
 - `about.html` — company introduction, mission, vision
-- `projects.html` — **illustrative image gallery**, not actual CircNex projects
 - `faq.html` — common questions, including candid certification/security information
 - `contact.html` — contact information and inquiry form
 - `quote.html` — request-a-quote form with project details
