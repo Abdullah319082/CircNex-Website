@@ -12,3 +12,18 @@
 
 /* Preserve older #workstations links after merging this service into #deployment. */
 .detail-copy#workstations{scroll-margin-top:145px}
+
+/* Vendor field support is a partnership model, not a fifth technical-service card. */
+.field-support-section{background:linear-gradient(130deg,#082333,#0b1d2b)}
+.field-support-layout{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:52px;align-items:center}
+.field-support-layout h2{margin:10px 0 18px}
+.field-support-layout>div:first-child>p:not(.kicker){font-size:15px;line-height:1.85;color:var(--muted);max-width:700px;margin-bottom:18px}
+.field-support-layout>div:first-child>.btn{margin-top:10px}
+.field-support-facts{background:#12313b;border:1px solid #79bba252;border-radius:9px;padding:30px}
+.field-support-facts h3{font-size:19px;margin-bottom:15px}
+.field-support-facts p{font-size:13px;line-height:1.85;color:#c3d4d4;margin:0;padding:12px 0}
+.field-support-facts p+p{border-top:1px solid #d7ffef1c}
+.field-support-facts strong{color:#ecf8f3}
+.field-support-facts .btn{margin-top:20px}
+@media(max-width:900px){.field-support-layout{grid-template-columns:1fr;gap:30px}}
+@media(max-width:600px){.field-support-facts{padding:22px}.field-support-layout>div:first-child>p:not(.kicker){font-size:14px}}
