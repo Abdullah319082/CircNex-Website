@@ -2,10 +2,10 @@
 
 Official website development repository for CircNex Technologies.
 
-> **Development only.** Public-facing forms are in demo mode; the website is not yet connected to an inquiry-processing backend. Pages currently include a `noindex,nofollow` robots instruction.
+> **Development only.** The contact form is in demo mode; the website is not yet connected to an inquiry-processing backend. Pages currently include a `noindex,nofollow` robots instruction.
 
 ## Pages
-- `index.html` — homepage (company intro, five photo-led services, process, why us, contact form)
+- `index.html` — homepage (company intro, five photo-led services, retired equipment purchasing, process, why us)
 - `services.html` — service details with photos and scope bullets
 - `about.html` — company introduction, mission, vision
 - `faq.html` — common questions, including candid certification/security information
@@ -34,7 +34,7 @@ Source license: https://unsplash.com/license
 For production, consider downloading and optimizing appropriately licensed images as local assets to avoid dependencies on third-party image hosting.
 
 ## Contact form: demo mode only
-The two remaining forms provide required fields and browser-side validation. Submitting them intentionally **does not send or save** data and displays an accurate warning. **Do not claim inquiries are being delivered before connecting the production form service.**
+The Contact page form provides required fields and browser-side validation. Submitting them intentionally **does not send or save** data and displays an accurate warning. **Do not claim inquiries are being delivered before connecting the production form service.**
 
 Production options:
 - Cloudflare Pages Functions with Turnstile + a transactional mail service, or
@@ -45,7 +45,7 @@ Configure mail delivery to **info@circnex.com** after the business mailbox is ac
 ## Before launching at circnex.com
 1. Confirm real email mailbox, phone number (if public), service area, business registration and actual service capability.
 2. Replace social-channel placeholders with **real** Facebook, TikTok, LinkedIn, Instagram profile URLs.
-3. Connect and test the contact forms (delivery, privacy, spam prevention, accessibility, data retention).
+3. Connect and test the contact form (delivery, privacy, spam prevention, accessibility, data retention).
 4. Confirm any third-party downstream processing relationships and claims before referencing them as actual partners.
 5. Replace stock photography with approved CircNex project photos when available.
 6. Have the privacy policy reviewed for the actual data flows.
